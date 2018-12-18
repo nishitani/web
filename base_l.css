@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC:200&subset=japanese');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100&subset=japanese');
+nav {
+  z-index: 200;
+  width: 100%;
+  position: fixed;
+  display: grid;
+  background-color: rgba(0,16,32,0.8);
+  grid-template-columns: 200px 1fr;
+}
+nav img.logo {
+  padding-left: 40px;
+  width: 120px;
+}
+nav ul#nav-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;;
+}
+
+nav ul#nav-menu li{
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  color: white;
+}
+
+nav .nav-toggler{
+  display: none;
+}
+
+div#carousel{
+  padding-top: 0px;
+}
+
+div#carousel div.tagline{
+  width: 60vw;
+  left: 30vw;
+  top: 30vw;
+  position: absolute;
+  text-align: right;
+  z-index: 100;
+  white-space: nowrap;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 5vw;
+  color: rgba(255,255,255,0.9);
+  text-shadow:0 0 2vw rgba(0,0,0,1);
+}
+
+div#main p{
+  margin: 1em;
+  font-family: 'Noto Serif SC', serif;
+  color: rgba(0,0,0,0.7);
+  text-shadow:0 0 0.5em rgba(0,0,0,0.5);
+  font-size: 1.5em;
+  text-align: center;
+}
